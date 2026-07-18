@@ -39,7 +39,7 @@ if submit_button:
     st.subheader("預期")
     res_cols = st.columns(5)
     
-    for i, target in enumerate(['woba', 'xwoba', 'EV', 'Angle']):
+    for i, target in enumerate(['xwoba', 'EV', 'Angle']):
         prediction = models[target].predict(input_df[X_cols])[0]
         
         # 格式化輸出
