@@ -50,4 +50,4 @@ if submit_button:
             
         res_cols[i].metric(label=target, value=display_val)
 
-    st.success("預測完成！請注意：由於訓練樣本較少(16筆)，此結果僅供戰術參考。")
+    st.success("預測完成！請注意：由於訓練樣本較少，此結果僅供戰術參考。")
